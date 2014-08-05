@@ -1,4 +1,6 @@
-MCMC_Examples
-=============
+This will become a collection of various examples of Markov Chain Monte Carlo (MCMC) techniques, with a focus on Gibbs sampling.
 
-Examples of Markov Chain Monte Carlo (MCMC) techniques, such as Gibbs sampling.
+| Example                         | Methods                       | Status   |
+| ------------------------------- | ----------------------------- | -------- |
+| Drawing from bivariate Normal   | Gibbs sampling                | Finished |
+
