@@ -3,5 +3,5 @@ This will become a collection of various examples of Markov Chain Monte Carlo (M
 | Example                              | Methods                       | Status   |
 | ------------------------------------ | ----------------------------- | -------- |
 | Drawing from bivariate Normal        | Gibbs sampling                | Finished |
-| Inference on fitted Bayesian network | Gibbs sampling                |          |
+| Inference on fitted Bayesian network | Gibbs sampling                | Finished |
 
