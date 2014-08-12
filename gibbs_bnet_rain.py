@@ -47,9 +47,9 @@ def pmf_cloudy(is_cloudy):
 def pmf_sprinker_given_cloudy(is_sprinkler, is_cloudy):
     if is_cloudy:
         if is_sprinkler:
-            return 0.10
+            return 0.15
         else:
-            return 0.90
+            return 0.85
     else:
         if is_sprinkler:
             return 0.50
@@ -60,14 +60,14 @@ def pmf_sprinker_given_cloudy(is_sprinkler, is_cloudy):
 def pmf_rain_given_cloudy(is_rain, is_cloudy):
     if is_cloudy:
         if is_rain:
-            return 0.80
+            return 0.75
         else:
-            return 0.20
+            return 0.25
     else:
         if is_rain:
-            return 0.20
+            return 0.25
         else:
-            return 0.80
+            return 0.75
 
 # P(W|S,R)
 def pmf_wetgrass_given_sprinker_rain(is_wetgrass, is_sprinkler, is_rain):
